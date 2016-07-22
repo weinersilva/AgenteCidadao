@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/layoutitemnoticia"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+    android:id="@+id/IconNews"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:padding="4sp"
+    android:src="@drawable/ic_iconnews"/>
+
+    <TextView
+        android:id="@+id/titulonot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/IconNews"
+        android:layout_toRightOf="@+id/IconNews"
+        android:text="Título da Notícia"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/descricaonot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@id/titulonot"
+        android:layout_toEndOf="@+id/IconNews"
+        android:layout_toRightOf="@+id/IconNews"
+        android:text="Descrição"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/datanot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descricaonot"
+        android:layout_toEndOf="@+id/IconNews"
+        android:layout_toRightOf="@+id/IconNews"
+        android:text="Data"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+</RelativeLayout>

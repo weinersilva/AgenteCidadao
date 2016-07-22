@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dsdm.agentecidadao.activity.SobreActivity">
+
+    <ImageView android:src="@mipmap/ic_launcher"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/infoapp"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:maxLines="6"
+        android:lines="6"
+        android:text="O Agente Cidadão consiste em um aplicativo móvel, que oferece o serviço de envio de imagens de possíveis infrações praticadas na cidade que nem sempre são punidas pelo órgão responsável, por falta de efetivos nas ruas."></TextView>
+    <TextView
+        android:id="@+id/madeby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/madeBy" />
+</RelativeLayout>
